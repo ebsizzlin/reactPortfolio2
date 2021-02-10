@@ -1,6 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-grid-system";
 import { FaArrowDown } from "react-icons/fa";
+import resume from "../../assets/images/hero/Resume.pdf"
 
 // Components
 import ProgressBar from "../../components/common/ProgressBar";
@@ -90,7 +91,7 @@ function Resume() {
                     </div>
                     <h3>Education & Experience</h3>
                     < FaArrowDown className="icon ti-arrow-down" />
-                    <h6><a href="/assets/images/hero/Resume.pdf">Download My Full Resume</a></h6>
+                    <h6><a href={resume}>Download My Full Resume</a></h6>
                     <div className="divider divider-1-reverse divider-1-1"></div>
                     <div className="divider divider-1-reverse divider-1-2"></div>
                 </header>
